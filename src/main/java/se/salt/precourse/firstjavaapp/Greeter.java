@@ -1,4 +1,4 @@
-package se.salt.precourse.firstJavaApp;
+package se.salt.precourse.firstjavaapp;
 
 import java.io.BufferedReader;
 import java.io.IOException;
