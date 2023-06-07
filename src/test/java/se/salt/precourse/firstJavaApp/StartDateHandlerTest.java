@@ -6,11 +6,10 @@ import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class StartDateHandlerTest {
-
+public class StartDateHandlerTest {
 
   @Test
-  void retunrs2ForDateDwoDaysInTheFuture() {
+  void returns2ForDateDwoDaysInTheFuture() {
     LocalDate twoDaysInTheFuture = LocalDate.now().plusDays(2);
     long two = new StartDateHandler().daysToCourseStart(twoDaysInTheFuture.toString());
 
